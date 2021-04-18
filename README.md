@@ -1,2 +1,2 @@
-# resume-demo
-resume built with html css and js
+# Prime Academy - Technical Challenge
+Dane Petersen
