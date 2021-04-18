@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <script src="/js/script.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
   <div id="resume-container" class="container-fluid bg-light">
@@ -60,7 +60,7 @@ Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra 
             
             <div class="row row-cols-1 row-cols-md-3">
               <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card card-animate h-100">
                   <img src="assets/project1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Project 1</h5>
@@ -71,7 +71,7 @@ Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra 
                 </div>
               </div>
               <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card card-animate h-100">
                   <img src="assets/project2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Project 2</h5>
@@ -82,7 +82,7 @@ Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra 
                 </div>
               </div>
               <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card card-animate h-100">
                   <img src="assets/project3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Project 3</h5>
@@ -93,7 +93,7 @@ Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra 
                 </div>
               </div>
               <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card card-animate h-100">
                   <img src="assets/project4.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Project 4</h5>
@@ -107,7 +107,7 @@ Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra 
 
             <div class="row row-cols-1 row-cols-md-3">
               <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card card-animate h-100">
                   <img src="assets/project5.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Project 5</h5>
@@ -129,7 +129,7 @@ Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra 
                 </div>
               </div>
               <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card card-animate h-100">
                   <img src="assets/project7.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Project 7</h5>
@@ -140,7 +140,7 @@ Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra 
                 </div>
               </div>
               <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card card-animate h-100">
                   <img src="assets/project8.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Project 8</h5>
@@ -154,7 +154,31 @@ Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra 
             
           <!-- </div> -->
         </div>
-        <div class="tab-pane fade contact-tab" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        <div class="tab-pane fade contact-tab" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="card contact-form-card h-100">
+            <img src="assets/contact.jpg" class="card-img-top contact-form-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Contact Me</h5>
+              <i>* Form is example only - PHP not allowed on github hosting</i>
+              <p class="card-text">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Message</label>
+                    <textarea type="textarea" class="form-control" id="exampleInputPassword1"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="top" data-content="THIS FORM IS ONLY AN EXAMPLE, MESSAGE NOT SENT">
+                    SEND
+                  </button>
+                </form>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
