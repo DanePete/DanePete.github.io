@@ -1,0 +1,14 @@
+
+
+body {
+  background-color: rgb(48, 48, 48);
+}
+
+#resume-container {
+  background-image: url("so-white.png");
+}
+
+.resume-head {
+  background-color: #1abc9c;
+  color: white; 
+}
