@@ -12,6 +12,19 @@ body {
 * Navbar Styles
 */
 
+/*
+* spacer
+* Due to navigation being fixed we need to account for overlap
+*/
+
+.spacer {
+  height: 72px;
+}
+
+/*
+* Jumbotron Styles
+*/
+
 .resume-navbar {
   background-color: #f2f6fc !important;
   color: grey;
