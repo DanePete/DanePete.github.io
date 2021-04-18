@@ -137,3 +137,14 @@ body {
 .resume-tab .card {
   margin-bottom: 20px;
 }
+
+
+@media only screen and (max-width: 959px) {
+  .row {
+    display: block;
+  }
+
+  .contact-form-img {
+    display: none;
+  }
+}
