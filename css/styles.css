@@ -99,10 +99,6 @@ body {
   color: grey;
 }
 
-#resume-container {
-  /* background-image: url("so-white.png"); */
-}
-
 .resume-head {
   background-color: #1abc9c;
   color: white; 
@@ -120,4 +116,17 @@ body {
 .contact-form-card {
   flex-direction: row;
   align-items: center;
+}
+
+/*
+* Resume Tab
+*/
+
+.resume-tab .card-header {
+  background: #12232E;
+  color: white;
+}
+
+.resume-tab .card {
+  margin-bottom: 20px;
 }
