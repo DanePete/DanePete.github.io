@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="/js/script.js"></script>
 </head>
 <body>
   <div id="resume-container" class="container-fluid bg-light">
@@ -32,7 +33,7 @@
               <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Projects</a>
+              <a class="nav-link animatebutton" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
@@ -43,7 +44,7 @@
     </div>    
     <div class="container resume-container">
       <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="tab-pane fade resume-tab show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque purus rhoncus, imperdiet justo nec, laoreet dolor. Suspendisse ut facilisis elit. Aliquam elit nulla, rutrum sed rhoncus eget, maximus et dolor. Aliquam erat volutpat. Fusce condimentum cursus sem, vitae ornare tortor imperdiet id. Vivamus aliquet blandit augue non volutpat. Duis ut faucibus purus. Donec sem arcu, pellentesque ac ipsum in, rutrum aliquam dui. Pellentesque fringilla augue sed massa dictum, eget placerat ante laoreet. Suspendisse posuere in eros suscipit placerat. Duis commodo metus ut lorem semper, vel fermentum odio gravida. Nunc ac sodales mauris. Mauris a diam purus.
 
 Suspendisse a enim eu lectus volutpat commodo et at quam. Nullam sit amet eleifend nibh. Sed euismod massa non dui dapibus aliquam. Pellentesque in felis non tortor tristique feugiat id nec mi. Mauris aliquam volutpat nisi vehicula placerat. Sed euismod magna quis sem dapibus molestie. Nullam aliquet risus ac justo ornare, et imperdiet dui ornare. Nam cursus ante et pharetra ultricies.
@@ -54,8 +55,106 @@ Quisque in quam sapien. Duis ipsum ipsum, efficitur et elementum nec, eleifend q
 
 Donec et condimentum est. Mauris est arcu, elementum id vehicula eget, pharetra eget erat. Ut vel risus non magna commodo ultricies ut et urna. Etiam sit amet congue odio. Phasellus faucibus elementum lobortis. Fusce ultricies erat arcu, vitae placerat urna vehicula nec. Vivamus sit amet sapien nunc. Fusce feugiat non mauris a ullamcorper. Duis tincidunt eu ex fermentum mattis. Ut lacus ex, luctus ac ante eget, bibendum eleifend massa.
         </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <!-- <div class="container projects-tab"> -->
+            
+            <div class="row row-cols-1 row-cols-md-3">
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="assets/project1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="assets/project2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 2</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="assets/project3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 3</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="assets/project4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 4</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>      
+
+            <div class="row row-cols-1 row-cols-md-3">
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="assets/project5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 5</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="assets/project6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 6</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="assets/project7.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 7</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="assets/project8.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 8</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>          
+            
+          <!-- </div> -->
+        </div>
+        <div class="tab-pane fade contact-tab" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
       </div>
     </div>
   </div>
