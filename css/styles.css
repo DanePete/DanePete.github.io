@@ -9,26 +9,30 @@ body {
 }
 
 /*
-* Navbar Styles
-*/
-
-/*
-* spacer
-* Due to navigation being fixed we need to account for overlap
-*/
-
-.spacer {
-  height: 72px;
-}
-
-/*
 * Jumbotron Styles
 */
+
+.jumbotron {
+  background: #12232E;
+  color: white;
+  font-weight: bold;
+}
 
 .jumbotron-img {
   width: 250px;
   border-radius: 50%;
+  border: 6px solid #18c183;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #007CC7;
+}
+
+.nav-pills a {
+  color: #4DA8DA;
+}
+
 
 .resume-navbar {
   background-color: #f2f6fc !important;
