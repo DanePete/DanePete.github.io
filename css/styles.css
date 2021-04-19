@@ -33,7 +33,7 @@ body {
   width: 250px;
   border-radius: 50%;
   border: 6px solid #18c183;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -50,7 +50,7 @@ body {
 
 .resume-head {
   background-color: #1abc9c;
-  color: white; 
+  color: white;
   padding-top: 75px;
 }
 
@@ -71,11 +71,19 @@ body {
 }
 
 @keyframes slide-down {
-  0% { opacity: 0; transform: translateY(100%); }
-  35% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  35% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
   color: #fff;
   background-color: #007CC7;
 }
@@ -108,17 +116,17 @@ body {
 .card {
   border-radius: 4px;
   background: #fff;
-  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
 }
 
 .card-animate {
-  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
   cursor: pointer;
 }
 
-.card-animate:hover{
+.card-animate:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
 /*
@@ -152,19 +160,26 @@ body {
 */
 
 .typewriter p i {
-  overflow: hidden; 
-  border-right: .15em solid orange; 
-  margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
+  overflow: hidden;
+  border-right: .15em solid orange;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
 }
 
 
@@ -180,7 +195,7 @@ body {
   .nav-left {
     float: none;
   }
-  
+
   .nav-right {
     float: none;
   }
