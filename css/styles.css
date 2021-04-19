@@ -83,6 +83,14 @@ body {
   color: #4DA8DA;
 }
 
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
+
 /*
 * Projects Tab
 */
@@ -143,10 +151,10 @@ body {
 */
 
 .typewriter p i {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -166,5 +174,13 @@ body {
 
   .contact-form-img {
     display: none;
+  }
+
+  .nav-left {
+    float: none;
+  }
+  
+  .nav-right {
+    float: none;
   }
 }
